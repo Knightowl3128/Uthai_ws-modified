@@ -1,0 +1,2 @@
+biped_description:biped_sims:mono:mono_move:spawn_robot_tools/spawn_robot_tools_pkg
+-DCATKIN_DEVEL_PREFIX=/home/navaneeth/mysim/devel -DCMAKE_INSTALL_PREFIX=/home/navaneeth/mysim/install -G Unix Makefiles

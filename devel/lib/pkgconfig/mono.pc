@@ -1,0 +1,8 @@
+prefix=/home/navaneeth/mysim/devel
+
+Name: mono
+Description: Description of mono
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/navaneeth/mysim/devel/lib 
+Requires: 

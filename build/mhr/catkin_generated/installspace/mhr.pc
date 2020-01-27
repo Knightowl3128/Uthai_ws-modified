@@ -1,0 +1,8 @@
+prefix=/home/navaneeth/mysim/install
+
+Name: mhr
+Description: Description of mhr
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/navaneeth/mysim/install/lib 
+Requires: 

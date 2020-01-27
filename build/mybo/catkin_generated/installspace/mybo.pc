@@ -1,0 +1,8 @@
+prefix=/home/navaneeth/mysim/install
+
+Name: mybo
+Description: Description of mybo
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/navaneeth/mysim/install/lib 
+Requires: 
