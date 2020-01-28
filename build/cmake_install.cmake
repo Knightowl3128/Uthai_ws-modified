@@ -127,9 +127,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/navaneeth/mysim/build/gtest/cmake_install.cmake")
   include("/home/navaneeth/mysim/build/mono_move/cmake_install.cmake")
-  include("/home/navaneeth/mysim/build/biped_description/cmake_install.cmake")
-  include("/home/navaneeth/mysim/build/biped_sims/cmake_install.cmake")
-  include("/home/navaneeth/mysim/build/spawn_robot_tools/spawn_robot_tools_pkg/cmake_install.cmake")
   include("/home/navaneeth/mysim/build/mono/cmake_install.cmake")
 
 endif()

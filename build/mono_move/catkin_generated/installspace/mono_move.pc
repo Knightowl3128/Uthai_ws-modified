@@ -4,5 +4,5 @@ Name: mono_move
 Description: Description of mono_move
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/navaneeth/mysim/install/lib 
+Libs: -L${prefix}/lib 
 Requires: 
