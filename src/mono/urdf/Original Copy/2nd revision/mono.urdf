@@ -210,7 +210,7 @@
     <origin rpy="0 0 -1.570796327" xyz="0.0 -0.09 -0.068"/>
     <parent link="base_footprint"/>
     <child link="r_hip_yaw_link"/>
-    <limit effort="5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_hip_yaw_joint_tran">
@@ -251,7 +251,7 @@
     <origin rpy="1.570796327 0 3.141592654" xyz="0 0 -0.036"/>
     <parent link="r_hip_yaw_link"/>
     <child link="r_hip_roll_link"/>
-    <limit effort="5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_hip_roll_joint_tran">
@@ -292,7 +292,7 @@
     <origin rpy="-1.570796327 0 -1.570796327" xyz="0 0 0"/>
     <parent link="r_hip_roll_link"/>
     <child link="r_hip_pitch_link"/>
-    <limit effort="6" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_hip_pitch_joint_tran">
@@ -333,7 +333,7 @@
     <origin rpy="0 0 0" xyz="0.3 0 0"/>
     <parent link="r_hip_pitch_link"/>
     <child link="r_knee_pitch_link"/>
-    <limit effort="6" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_knee_pitch_joint_tran">
@@ -374,7 +374,7 @@
     <origin rpy="0 0 0" xyz="0.315 0 0"/>
     <parent link="r_knee_pitch_link"/>
     <child link="r_ankle_pitch_link"/>
-    <limit effort="2" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="3" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_ankle_pitch_joint_tran">
@@ -415,7 +415,7 @@
     <origin rpy="1.570796327 0 0" xyz="0 0 0"/>
     <parent link="r_ankle_pitch_link"/>
     <child link="r_ankle_roll_link"/>
-    <limit effort="2.5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="3" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="r_ankle_roll_joint_tran">
@@ -464,7 +464,7 @@
     <origin rpy="0 0 1.570796327" xyz="0.0 0.09 -0.068"/>
     <parent link="base_footprint"/>
     <child link="l_hip_yaw_link"/>
-    <limit effort="5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_hip_yaw_joint_tran">
@@ -505,7 +505,7 @@
     <origin rpy="1.570796327 0 0" xyz="0 0 -0.036"/>
     <parent link="l_hip_yaw_link"/>
     <child link="l_hip_roll_link"/>
-    <limit effort="5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_hip_roll_joint_tran">
@@ -546,7 +546,7 @@
     <origin rpy="-1.570796327 0 -1.570796327" xyz="0 0 0"/>
     <parent link="l_hip_roll_link"/>
     <child link="l_hip_pitch_link"/>
-    <limit effort="6" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_hip_pitch_joint_tran">
@@ -587,7 +587,7 @@
     <origin rpy="0 0 0" xyz="0.3 0 0"/>
     <parent link="l_hip_pitch_link"/>
     <child link="l_knee_pitch_link"/>
-    <limit effort="6" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="10" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_knee_pitch_joint_tran">
@@ -628,7 +628,7 @@
     <origin rpy="0 0 0" xyz="0.315 0 0"/>
     <parent link="l_knee_pitch_link"/>
     <child link="l_ankle_pitch_link"/>
-    <limit effort="2" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_ankle_pitch_joint_tran">
@@ -669,7 +669,7 @@
     <origin rpy="1.570796327 0 0" xyz="0 0 0"/>
     <parent link="l_ankle_pitch_link"/>
     <child link="l_ankle_roll_link"/>
-    <limit effort="2.5" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
+    <limit effort="3" lower="-2.8274333886" upper="2.8274333886" velocity="3"/>
     <dynamics damping="0.1" friction="0.0"/>
   </joint>
   <transmission name="l_ankle_roll_joint_tran">
